@@ -1,11 +1,9 @@
 const express = require('express');
 const { engine } = require('express-handlebars');
-// import { engine } from 'express-handlebars';
 
 const app = express();
 const port = 3000;
 
-// app.engine('hbs', engine());
 app.engine('hbs', engine({
     extname: "hbs",
     defaultLayout: false
