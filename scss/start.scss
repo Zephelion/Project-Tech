@@ -3,14 +3,25 @@ main.start{
     height: 100vh;
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
 
-    h1.welcome{
-        color: white;
-        font-family: 'Segoe UI';
-        font-weight: 100;
-        text-align: center;
-        width: 41%;
-        margin: auto;
+    div.welcome{
+
+        h1.welcome-message{
+            color: white;
+            font-family: 'Segoe UI';
+            font-weight: 100;
+            text-align: center;
+            width: 41%;
+            margin: auto;
+        }
+
+        h2{
+            color: white;
+            font-family: 'Segoe UI';
+            font-weight: 100;
+            text-align: center;
+        }
     }
 
     section{
