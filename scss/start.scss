@@ -1,4 +1,12 @@
-main{
-    background-color: $main-color;
+main.start{
+    background-color: #0064FE;
+    height: 100vh;
 
+    h1.welcome{
+        color: white;
+        font-family: 'Segoe UI';
+        font-weight: 100;
+        text-align: center;
+        width: 41%;
+    }
 }
