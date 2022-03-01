@@ -1,6 +1,8 @@
 main.start{
     background-color: #0064FE;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
 
     h1.welcome{
         color: white;
@@ -9,5 +11,12 @@ main.start{
         text-align: center;
         width: 41%;
         margin: auto;
+    }
+
+    section{
+        background-color: white;
+        height: 60%;
+        width: 100%;
+        border-radius: 57px 57px 0px 0px;
     }
 }

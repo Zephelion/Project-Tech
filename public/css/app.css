@@ -1,1 +1,1 @@
-main.start{background-color:#0064FE;height:100vh}main.start h1.welcome{color:white;font-family:'Segoe UI';font-weight:100;text-align:center;width:41%;margin:auto}body{margin:0;padding:0}h1{margin:0}
+main.start{background-color:#0064FE;height:100vh;display:flex;flex-direction:column}main.start h1.welcome{color:white;font-family:'Segoe UI';font-weight:100;text-align:center;width:41%;margin:auto}main.start section{background-color:white;height:60%;width:100%;border-radius:57px 57px 0px 0px}body{margin:0;padding:0}h1{margin:0}
