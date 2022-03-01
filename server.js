@@ -6,10 +6,12 @@ const port = 3000;
 
 app.engine('hbs', engine({
     extname: "hbs",
-    defaultLayout: false
+    layoutsDir: __dirname + '/views/layouts/',
+    partialsDir:__dirname + '/views/partials',
 }));
 app.set('view engine', 'hbs');
 app.set('views', './views');
+app.use('/public', express.static("public"));
 
 
 
