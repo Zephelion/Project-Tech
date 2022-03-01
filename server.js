@@ -1,14 +1,27 @@
 const express = require('express');
+const { engine } = require('express-handlebars');
+// import { engine } from 'express-handlebars';
+
 const app = express();
 const port = 3000;
 
+// app.engine('hbs', engine());
+app.engine('hbs', engine({
+    extname: "hbs",
+    defaultLayout: false
+}));
+app.set('view engine', 'hbs');
+app.set('views', './views');
+
+
+
 app.get('/', (req,res) => {
-    res.send('Wagwan people hier komt de lijst van vergelijkbare gebruikers');
+    res.render('start');
 });
 
-app.get('/login', (req,res) => {
+app.get('/register', (req,res) => {
     res.status(200)
-    res.send('hier zal je uiteindelijk moeten inloggen');
+    res.render('register');
 })
 
 app.get('/about', (req,res) => {
