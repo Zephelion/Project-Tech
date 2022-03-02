@@ -1,9 +1,22 @@
 const express = require('express');
-const router = express.Router();
+// const router = express.Router();
+const router = express();
 
-router.get('/', (req,res) => {
+const namedRoutes = require('named-routes');
+const route = new namedRoutes();
+
+route.extendExpress(router);
+route.registerAppHelpers(router);
+
+router.get('/', (req,res,) => {
+
     res.render('start');
+
 });
+
+// url('index');
+
+
 
 router.get('/register', (req,res) => {
     res.status(200)
