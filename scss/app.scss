@@ -12,6 +12,11 @@ a{
     text-decoration: none;
 }
 
+a#secondary{
+    background-color: $secondary-color;
+    color: $main-color;
+}
+
 h1{
     margin: 0;
 }
