@@ -2,14 +2,13 @@ main.register{
 
     margin: 34px;
 
-    div{
         a{
-
+            display: block;
             img{
                 width: 50px;
             }
         }
-    }
+    
 
     h1{
         font-family: 'Segoe UI';
@@ -30,7 +29,13 @@ main.register{
             padding: 23px;
             border-radius: 8px;
             font-size: 17px;
-            margin-top: 12px;
+            margin-top: 13px;
+            outline: none;
+        }
+
+        input[type=submit]{
+            background-color: $main-color;
+            color: white;
         }
     }
 }
