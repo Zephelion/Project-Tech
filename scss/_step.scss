@@ -1,9 +1,16 @@
 main.step{
 
+    a{
+        position: absolute;
+        top: 31px;
+        left: 10px;
+    }
+
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 
     section.center{
 
