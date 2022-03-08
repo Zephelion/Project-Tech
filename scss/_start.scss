@@ -25,7 +25,7 @@ main.start{
         }
     }
 
-    section{
+    section.container{
         background-color: white;
         height: 60%;
         width: 100%;
@@ -59,6 +59,14 @@ main.start{
                 text-align: center;
                 min-width: 300px;
                 
+            }
+        }
+
+        section.signup{
+
+            form.signup-form{
+                margin: 0px 20px 0px 20px;
+
             }
         }
 
