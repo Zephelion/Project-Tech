@@ -1,0 +1,60 @@
+main.step{
+
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    section.center{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 70px;
+
+        h1{
+            font-family: 'Segoe UI';
+            font-weight: 400;
+            font-size: 2em;
+            text-align: center;
+        }
+        div.button-container{
+            display: flex;
+            justify-content: center;
+            
+            form{
+
+                display: flex;
+                flex-direction: column;
+                
+                div:nth-child(1){
+
+                    display: flex;
+                    justify-content: space-around;
+                    gap: 80px;
+
+                    input[type=button]{
+                        background-color: $secondary-color;
+                        padding: 25px;
+                        border: none;
+                        outline: none;
+                        font-size: 1.2em;
+                        min-width: 123px;
+                        border-radius: 9px;
+                    }
+
+                }
+
+                div:nth-child(2){
+                    input[type=submit]{
+                        outline: none;
+                        border: none;
+                        width: 100%;
+                    }
+                }
+
+
+            }
+        }
+    }
+}
