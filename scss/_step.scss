@@ -1,22 +1,22 @@
 main.step{
 
+    
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    
+
     a{
         position: absolute;
         top: 31px;
         left: 10px;
     }
 
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-
     section.center{
 
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: center;
         gap: 70px;
 
         h1{
@@ -28,11 +28,13 @@ main.step{
         div.button-container{
             display: flex;
             justify-content: center;
+            height: 36%;
             
             form{
 
                 display: flex;
                 flex-direction: column;
+                justify-content: space-between;
                 
                 div:nth-child(1){
 

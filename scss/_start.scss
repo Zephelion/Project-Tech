@@ -42,10 +42,12 @@ main.start{
             justify-content: center;
             flex-direction: column;
             align-items: center;
+            transition: 0.4s;
 
-            &.fade{
-                opacity: 0;
+            &.move{
+                // opacity: 0;
                 // display: none;
+                transform: translateX(376px);
                 
             }
 
@@ -64,8 +66,19 @@ main.start{
 
         section.signup{
 
+            transform: translateX(-400px);
+            position: absolute;
+            transition: 0.4s;
+            width: 86%;
+            bottom: 170px;
+
+            &.move-signup{
+                transform: translateX(7px);
+            }
+
             form.signup-form{
                 margin: 0px 20px 0px 20px;
+                width: 100%;
 
             }
         }

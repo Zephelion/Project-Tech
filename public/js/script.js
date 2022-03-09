@@ -1,9 +1,11 @@
 const signIn = document.getElementById('secondary');
 const section = document.querySelector('.options');
+const signUp = document.querySelector('.signup');
 
 console.log(section);
 
 signIn.addEventListener('click', () => {
-    section.classList.add('fade');
-    console.log("nu moet de section extenden");
+    section.classList.add('move');
+    signUp.classList.add('move-signup');
+    console.log("nu moet de section moven");
 })
