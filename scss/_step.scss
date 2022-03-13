@@ -40,7 +40,7 @@ main.step{
 
                     display: flex;
                     justify-content: space-around;
-                    gap: 80px;
+                    gap: 45px;
 
                     input[type=button]{
                         background-color: $secondary-color;
@@ -50,6 +50,18 @@ main.step{
                         font-size: 1.2em;
                         min-width: 123px;
                         border-radius: 9px;
+                    }
+
+                    input[type=checkbox]{
+                        // position: absolute;
+                        // opacity: 0;
+                        // cursor: pointer;
+                        // height: 0;
+                        // width: 0;
+                    }
+
+                    label{
+                        font-family: 'Segoe UI';
                     }
 
                 }
