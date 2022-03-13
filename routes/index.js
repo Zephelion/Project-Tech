@@ -9,12 +9,9 @@ router.get('/', (req,res,) => {
 
 });
 
-router.get('/register', (req,res) => {
-    res.status(200)
-    res.render('register');
-})
+router.get('/users', user.fetch);
 
-router.get('/create', user.store)
+router.get('/create', user.store);
 
 router.get('/users', (req,res) => {
     res.status(200);

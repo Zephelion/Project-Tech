@@ -23,9 +23,18 @@ const storeUser = (req,res) => {
 
         res.render('step');
 
-    }
+}
+
+const fetchUsers = (req,res) => {
+    User.find().lean().then(users => {
+        res.render('userindex', {
+            users:users,
+        })
+    })
+}
 
 
 module.exports = {
-    store: storeUser 
+    store: storeUser,
+    fetch: fetchUsers
 }

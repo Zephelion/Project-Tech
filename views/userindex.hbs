@@ -1,26 +1,13 @@
 <main class="index">
     <section class="container">
         <section class="user-container">
-            <div class="user">
-                <div class="user-img"></div>
-                <span>Russell Numo</span>
-            </div>
-            <div class="user">
-                <div class="user-img"></div>
-                <span>Russell Numo</span>
-            </div>
-            <div class="user">
-                <div class="user-img"></div>
-                <span>Russell Numo</span>
-            </div>
-            <div class="user">
-                <div class="user-img"></div>
-                <span>Russell Numo</span>
-            </div>
-            <div class="user">
-                <div class="user-img"></div>
-                <span>Russell Numo</span>
-            </div>
+            {{#each users}}
+                <div class="user">
+                    <div class="user-img"></div>
+                    <span>{{firstname}}</span>
+                </div>
+            {{/each}}
+            
         </section>
     </section>
 </main>
