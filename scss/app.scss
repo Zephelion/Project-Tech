@@ -3,6 +3,7 @@
 @import 'font';
 @import 'register';
 @import 'step';
+@import 'user';
 
 body{
     margin: 0;
@@ -83,5 +84,6 @@ form{
     input[type=submit]{
         background-color: $main-color;
         color: white;
+        
     }
 }

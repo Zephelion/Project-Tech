@@ -16,8 +16,9 @@ router.get('/register', (req,res) => {
 
 router.get('/create', user.store)
 
-router.get('/about', (req,res) => {
-    res.send('hier komt de about');
+router.get('/users', (req,res) => {
+    res.status(200);
+    res.render('userindex');
 })
 
 module.exports = router;
