@@ -2,7 +2,7 @@ const signIn = document.getElementById('secondary');
 const section = document.querySelector('.options');
 const signUp = document.querySelector('.signup');
 
-console.log(section);
+console.log(signIn);
 
 signIn.addEventListener('click', () => {
     section.classList.add('move');

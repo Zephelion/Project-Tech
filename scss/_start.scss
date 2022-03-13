@@ -73,13 +73,21 @@ main.start{
             bottom: 170px;
 
             &.move-signup{
-                transform: translateX(7px);
+                transform: translateX(25px);
             }
 
             form.signup-form{
-                margin: 0px 20px 0px 20px;
                 width: 100%;
 
+            }
+
+            a{
+                font-family: 'Segoe UI';
+                text-align: center;
+                display: flex;
+                justify-content: center;
+                color: $main-color;
+                font-size: 1.2em;
             }
         }
 
