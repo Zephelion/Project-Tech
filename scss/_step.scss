@@ -35,12 +35,49 @@ main.step{
                 display: flex;
                 flex-direction: column;
                 justify-content: space-between;
+                width: 90%;
+
+                label.fitness{
+                    position:relative;
+                    height:2em;
+                    padding: 0 1em;
+                    background-color:white;
+                    border: 1px solid black;
+                /* 	overflow:hidden; */
+                    border-radius:10px;
+                    padding: 15px;
+
+                    font-family: 'Segoe UI';
+                    flex-grow: 1;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+
+                input[type=checkbox]{
+                    position: absolute;
+                    width: 1px;
+                    height: 1px;
+                    padding: 0;
+                    margin: -1px;
+                    overflow: hidden;
+                    white-space: nowrap; /* added line */
+                    border: 0;
+                }
+
+                input[type=checkbox]:checked + label.fitness {
+                    background-color: $main-color;
+                    color: white;
+                    border: none;
+                }
                 
                 div:nth-child(1){
 
                     display: flex;
                     justify-content: space-around;
-                    gap: 45px;
+                    gap: 30px;
+                    flex-wrap: wrap;
+
 
                     input[type=button]{
                         background-color: $secondary-color;
