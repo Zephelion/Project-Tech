@@ -1,4 +1,5 @@
 const User = require('../models/User');
+const Goals = require('../models/Goal');
 
 const storeUser = (req,res) => {
     
@@ -24,10 +25,15 @@ const storeUser = (req,res) => {
 
 const passUser = (req,res) =>{
     const userInfo = req.query;
+    Goals.find().lean().then(goals =>{
+        res.render('step', {
+            
+            info:userInfo,
+            goals:goals,
+        })
 
-    res.render('step', {
-        info:userInfo,
     })
+
 }
 
 const fetchUsers = (req,res) => {
