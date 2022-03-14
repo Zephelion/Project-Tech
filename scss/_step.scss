@@ -68,7 +68,7 @@ main.step{
                 input[type=checkbox]:checked + label.fitness {
                     background-color: $main-color;
                     color: white;
-                    border: none;
+                    border: 1px solid transparent;
                 }
                 
                 div:nth-child(1){
