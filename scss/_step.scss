@@ -37,6 +37,12 @@ main.step{
                 justify-content: space-between;
                 width: 90%;
 
+                div.goals{
+                    display: flex;
+                    flex-wrap: wrap;
+                    gap: 26px;
+                }
+
                 label.fitness{
                     position:relative;
                     height:2em;
