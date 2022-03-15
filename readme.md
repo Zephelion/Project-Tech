@@ -42,7 +42,7 @@ npm install
 </p>
 
 <h3>:white_check_mark:Start</h3>
-<p>If you come this far congrats :smile: now you nedd to run the command below to test the applcation</p>
+<p>If you come this far congrats :smile: now you need to run the command below to test the applcation</p>
 
 ```
 npm run dev
