@@ -1,4 +1,4 @@
-:blush:<h1>Project Tech Fitbud Matching Application</h1>
+<h1>Project Tech Fitbud Matching Application</h1>
 <h2>About fitbud</h2>
 <p>Fitbud is a matching application where sport lovers can come together and train with each other. The application makes it very easy for users with similiar fitness background or goals to come together and have an effective train session</p>
 <p>please view in mobile size:)</p>
