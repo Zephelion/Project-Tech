@@ -82,6 +82,8 @@ npm run dev
     <li>
         <a href="https://expressjs.com/" target="_blank">https://expressjs.com/</a>
     </li>
-    
-
 </ul>
+<h2>:lock:License</h2>
+<p>
+    Fitbud is an application licensed under the <a href="https://opensource.org/licenses/MIT" target="_blank">MIT License</a>
+</p>
