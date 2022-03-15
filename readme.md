@@ -41,7 +41,7 @@ npm install
     the reason for this is because in order to run the application you need those packages that are in the <a href="https://github.com/Zephelion/Project-Tech/blob/master/package.json" target="_blank">
 </p>
 
-<h3>:green:Start</h3>
+<h3>:white_check_mark:Start</h3>
 <p>If you come this far congrats :smile: now you nedd to run the command below to test the applcation</p>
 
 ```
@@ -56,28 +56,28 @@ npm run dev
 <h3>Stackoverflow</h3>
 <ul>
     <li>
-        <a href="https://stackoverflow.com/questions/57179043/error-while-saving-data-in-mongodb-atlas-with-mongoose" target="_blank"></a>
+        <a href="https://stackoverflow.com/questions/57179043/error-while-saving-data-in-mongodb-atlas-with-mongoose" target="_blank">https://stackoverflow.com/questions/57179043/error-while-saving-data-in-mongodb-atlas-with-mongoose</a>
     </li>
     <li>
-        <a href="https://stackoverflow.com/questions/24908405/mongoose-and-new-schema-returns-referenceerror-schema-is-not-defined" target="_blank"></a>
+        <a href="https://stackoverflow.com/questions/24908405/mongoose-and-new-schema-returns-referenceerror-schema-is-not-defined" target="_blank">https://stackoverflow.com/questions/24908405/mongoose-and-new-schema-returns-referenceerror-schema-is-not-defined</a>
     </li>
     <li>
-        <a href="https://stackoverflow.com/questions/30686909/passing-a-url-as-a-parameter-to-node-express-app" target="_blank"></a>
+        <a href="https://stackoverflow.com/questions/30686909/passing-a-url-as-a-parameter-to-node-express-app" target="_blank">https://stackoverflow.com/questions/30686909/passing-a-url-as-a-parameter-to-node-express-app</a>
     </li>
     <li>
-        <a href="https://stackoverflow.com/questions/48398600/how-to-get-value-of-checkbox-in-express" target="_blank"></a>
+        <a href="https://stackoverflow.com/questions/48398600/how-to-get-value-of-checkbox-in-express" target="_blank">https://stackoverflow.com/questions/48398600/how-to-get-value-of-checkbox-in-express</a>
     </li>
 </ul>
 <h3>Packages</h3>
 <ul>
     <li>
-        <a href="https://mongoosejs.com/" target="_blank"></a>
+        <a href="https://mongoosejs.com/" target="_blank">https://mongoosejs.com/</a>
     </li>
     <li>
-        <a href="https://nodejs.org/en/" target="_blank"></a>
+        <a href="https://nodejs.org/en/" target="_blank">https://nodejs.org/en/</a>
     </li>
     <li>
-        <a href="https://expressjs.com/" target="_blank"></a>
+        <a href="https://expressjs.com/" target="_blank">https://expressjs.com/</a>
     </li>
     
 
