@@ -2,7 +2,7 @@ const User = require('../models/User');
 const Goals = require('../models/Goal');
 const UserGoals = require('../models/UserGoal');
 
-const storeUser = (req,res) => {
+const storeUser = async (req,res) => {
 
         const form = {
             firstname: req.body.firstname,
@@ -19,15 +19,18 @@ const storeUser = (req,res) => {
  
         })
 
-        res.redirect('/users');
 
-        // const savedUser = await User.findOne({email: req.body.email}).lean();
-        // const userGoals = new UserGoals({
-        //     goals: req.body.goals,
-        //     user:  savedUser, 
-        // })
+        const savedUser = await User.findOne({email: req.body.email}).lean();
+        const userGoals = new UserGoals({
+            goals: req.body.goals,
+            user:  savedUser, 
+        })
 
-        // userGoals.save()
+        userGoals.save();
+
+        res.redirect('/users')
+
+
 
 
 
