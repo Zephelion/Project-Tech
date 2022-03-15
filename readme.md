@@ -31,7 +31,7 @@ CONNECTION_STRING = <database connection string>
 
 ```
 <h3>Packages</h3>
-<p>Now you need to run the</p>
+<p>Now you need to run the command below</p>
 
 ```
 npm install
