@@ -30,3 +30,55 @@ DB_PASSWORD = <password>
 CONNECTION_STRING = <database connection string>
 
 ```
+<h3>Packages</h3>
+<p>Now you need to run the</p>
+
+```
+npm install
+```
+
+<p>
+    the reason for this is because in order to run the application you need those packages that are in the <a href="https://github.com/Zephelion/Project-Tech/blob/master/package.json" target="_blank">
+</p>
+
+<h3>:green:Start</h3>
+<p>If you come this far congrats :smile: now you nedd to run the command below to test the applcation</p>
+
+```
+npm run dev
+```
+<h3>Disclaimer</h3>
+<p>
+    <strong>Please view the application in mobile size</strong> the app is not intended voor deskstop view or else it will look not as good :-1:
+</p>
+
+<h2>:page_facing_up:Source list</h2>
+<h3>Stackoverflow</h3>
+<ul>
+    <li>
+        <a href="https://stackoverflow.com/questions/57179043/error-while-saving-data-in-mongodb-atlas-with-mongoose" target="_blank"></a>
+    </li>
+    <li>
+        <a href="https://stackoverflow.com/questions/24908405/mongoose-and-new-schema-returns-referenceerror-schema-is-not-defined" target="_blank"></a>
+    </li>
+    <li>
+        <a href="https://stackoverflow.com/questions/30686909/passing-a-url-as-a-parameter-to-node-express-app" target="_blank"></a>
+    </li>
+    <li>
+        <a href="https://stackoverflow.com/questions/48398600/how-to-get-value-of-checkbox-in-express" target="_blank"></a>
+    </li>
+</ul>
+<h3>Packages</h3>
+<ul>
+    <li>
+        <a href="https://mongoosejs.com/" target="_blank"></a>
+    </li>
+    <li>
+        <a href="https://nodejs.org/en/" target="_blank"></a>
+    </li>
+    <li>
+        <a href="https://expressjs.com/" target="_blank"></a>
+    </li>
+    
+
+</ul>
