@@ -4,5 +4,6 @@
 <p>please view in mobile size:)</p>
 <h2>Chosen Feature</h2>
 <p>The feature i will be making is the registration form where the user can register and get as result a list of all the different other users</p>
+<h2>Building blocks :gear:</h2>
 
 </ul>
