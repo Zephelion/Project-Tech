@@ -5,7 +5,7 @@
 <h2>Chosen Feature</h2>
 <p>The feature i will be making is the registration form where the user can register and get as result a list of all the different other users</p>
 <h2>:gear:Building blocks</h2>
-<p>For building the chosen feature i will be using</p>
+<p>For building the chosen feature i will be using the following techniques</p>
 <ul>
     <li>HTML</li>
     <li>Css</li>
@@ -14,3 +14,8 @@
     <li>Express.js</li>
     <li>MongoDB</li>
 </ul>
+<h2>:rocket:Installation</h2>
+<p>In order to use the application you first need to clone the repository. The command below will allow you to clone the repository to your local machine<p>
+```
+git clone https://github.com/WyroneBlue/blok-tech.git
+```
