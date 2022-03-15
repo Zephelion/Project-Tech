@@ -19,7 +19,5 @@
 <code>git clone https://github.com/Zephelion/Project-Tech.git</code>
 
 ```
-function test (){
-    console.log('yeet');
-}
+git clone https://github.com/Zephelion/Project-Tech.git
 ```
