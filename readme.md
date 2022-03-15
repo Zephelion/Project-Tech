@@ -16,6 +16,6 @@
 </ul>
 <h2>:rocket:Installation</h2>
 <p>In order to use the application you first need to clone the repository. The command below will allow you to clone the repository to your local machine<p>
-```
+``
 git clone https://github.com/WyroneBlue/blok-tech.git
-```
+``
