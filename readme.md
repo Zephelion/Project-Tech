@@ -16,8 +16,17 @@
 </ul>
 <h2>:rocket:Installation</h2>
 <p>In order to use the application you first need to clone the repository. The command below will allow you to clone the repository to your local machine<p>
-<code>git clone https://github.com/Zephelion/Project-Tech.git</code>
 
 ```
 git clone https://github.com/Zephelion/Project-Tech.git
+```
+
+<h3>:gear:.env</h3>
+<p>When you installed the application on your local machine you need to create a <strong>.env</strong> file in the root of the application and fill it in with the information below</p>
+
+```
+DB_USERNAME = <username>
+DB_PASSWORD = <password>
+CONNECTION_STRING = <database connection string>
+
 ```
