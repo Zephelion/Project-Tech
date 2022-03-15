@@ -67,6 +67,9 @@ npm run dev
     <li>
         <a href="https://stackoverflow.com/questions/48398600/how-to-get-value-of-checkbox-in-express" target="_blank">https://stackoverflow.com/questions/48398600/how-to-get-value-of-checkbox-in-express</a>
     </li>
+    <li>
+        <a href="https://stackoverflow.com/questions/21876112/inserting-in-mongodb-with-nodejs" target="_blank">https://stackoverflow.com/questions/21876112/inserting-in-mongodb-with-nodejs</a>
+    </li>
 </ul>
 <h3>Packages</h3>
 <ul>
