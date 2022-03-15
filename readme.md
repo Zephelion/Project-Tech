@@ -4,6 +4,13 @@
 <p>please view in mobile size:)</p>
 <h2>Chosen Feature</h2>
 <p>The feature i will be making is the registration form where the user can register and get as result a list of all the different other users</p>
-<h2>Building blocks :gear:</h2>
-
+<h2>:gear:Building blocks</h2>
+<p>For building the chosen feature i will be using</p>
+<ul>
+    <li>HTML</li>
+    <li>Css</li>
+    <li>Javascript</li>
+    <li>Node.js</li>
+    <li>Express.js</li>
+    <li>MongoDB</li>
 </ul>
