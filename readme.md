@@ -17,3 +17,9 @@
 <h2>:rocket:Installation</h2>
 <p>In order to use the application you first need to clone the repository. The command below will allow you to clone the repository to your local machine<p>
 <code>git clone https://github.com/Zephelion/Project-Tech.git</code>
+
+```
+function test (){
+    console.log('yeet');
+}
+```
