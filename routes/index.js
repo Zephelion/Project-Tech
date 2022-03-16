@@ -4,11 +4,14 @@ const router = express.Router();
 const user = require('../controllers/user');
 
 
+//Hier zet ik alle routes en zo zet ik ze weer naar een controller
 router.get('/', (req,res,) => {
 
     res.render('start');
 
 });
+
+//hier import ik de usercontroller en de benodigde functies die ik daarin heb geschreven
 
 router.get('/users', user.fetch);
 
