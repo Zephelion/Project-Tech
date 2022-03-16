@@ -13,6 +13,7 @@
     <li>Node.js</li>
     <li>Express.js</li>
     <li>MongoDB</li>
+    <li>Mongoose</li>
 </ul>
 <h2>:rocket:Installation</h2>
 <p>In order to use the application you first need to clone the repository. The command below will allow you to clone the repository to your local machine<p>
