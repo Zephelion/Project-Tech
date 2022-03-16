@@ -26,6 +26,7 @@ const storeUser = async (req,res) => {
 
         //zoek naar de opgeslagen user via email
         const savedUser = await User.findOne({email: req.body.email}).lean();
+
         //maak een nieuwe usergoals en pass de usergoals als object mee
         const userGoals = new UserGoals({
             goals: req.body.goals,
@@ -88,9 +89,17 @@ const fetchUsers = (req,res) => {
     })
 }
 
+const filter = (req,res) =>{
+    const age = '21';
+
+    User.find({age: age}, function(err,doc){
+        console.log(doc);
+    })
+}
 
 module.exports = {
     store: storeUser,
     fetch: fetchUsers,
-    pass: passUser
+    pass: passUser,
+    filter: filter
 }
