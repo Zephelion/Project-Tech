@@ -39,7 +39,7 @@ npm install
 ```
 
 <p>
-    the reason for this is because in order to run the application you need those packages that are in the <a href="https://github.com/Zephelion/Project-Tech/blob/master/package.json" target="_blank">
+    the reason for this is because in order to run the application you need those packages that are in the <a href="https://github.com/Zephelion/Project-Tech/blob/master/package.json" target="_blank">Package json</a>
 </p>
 
 <h3>:white_check_mark:Start</h3>
