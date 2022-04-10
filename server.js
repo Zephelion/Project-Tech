@@ -25,6 +25,6 @@ app.use('/public', express.static(path.join(__dirname, 'public')));
 app.use('/', urlEncoded , routes);
 
 
-app.listen(port, () => {
+app.listen(process.env.PORT || port, () => {
 	console.log(`Example app listening on port ${port}`);
 });
