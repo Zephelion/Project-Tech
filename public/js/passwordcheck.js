@@ -3,6 +3,7 @@
 
 const register = document.getElementById("register");
 const password = document.getElementById("password");
+const span = document.querySelector(".password-error");
 // var regularExpression = /^(?=.*[0-9])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{6,16}$/;
 
 
@@ -15,25 +16,28 @@ register.addEventListener('submit', (e) => {
 
 
     if(password.value.length < passwordLength){
-        console.log("password should atleast contain 7 letters");
         password.classList.add("error");
+        span.innerText = "Password should atleast contain 7 letters";
         e.preventDefault();
+
     }else if(password.value.search(/[a-z]/i) < 0){
-        console.log("Your password must contain atleast one letter");
         password.classList.add("error");
+        span.innerText = "Password must contain atleast one letter";
         e.preventDefault();
+
     }else if(password.value.search(/[0-9]/) < 0){
-        console.log("Your password must contain one digit");
         password.classList.add("error");
+        span.innerText = "Password must contain one digit";
         e.preventDefault();
+
     }else if(password.value.search(/[!@#$%^&*]/) < 0){
-        console.log("your password should contain one special character");
         password.classList.add("error");
+        span.innerText = "Password must contain one special character";
         e.preventDefault();
+        
     }else{
         console.log("heel goed!");
     }
-    // e.preventDefault();
-	// console.log(e);
+
 
 });

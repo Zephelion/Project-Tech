@@ -15,6 +15,11 @@ a{
     text-decoration: none;
 }
 
+span.password-error{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: red;
+}
+
 a#secondary{
     background-color: $secondary-color;
     color: $main-color;
