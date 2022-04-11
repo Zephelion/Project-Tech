@@ -4,7 +4,6 @@
 const register = document.getElementById("register");
 const password = document.getElementById("password");
 const span = document.querySelector(".password-error");
-// var regularExpression = /^(?=.*[0-9])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{6,16}$/;
 
 console.log(password);
 
@@ -36,6 +35,5 @@ register.addEventListener('submit', (e) => {
     }else{
         console.log("heel goed!");
     }
-
 
 });
