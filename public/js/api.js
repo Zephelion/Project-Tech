@@ -1,5 +1,3 @@
-/* eslint-disable indent */
-console.log("wagwan people");
 const url = " https://www.balldontlie.io/api/v1/players";
 const userContainer = document.querySelector(".user-container");
 
@@ -9,17 +7,17 @@ const fetchData = async () =>{
 
 	const users = res.data;
 
-    users.forEach(user => {
+	users.forEach(user => {
         
-        let html = `                
+		let html = `                
         <div class="user">
             <div class="user-img"></div>
             <span>${user.first_name}</span>
         </div>`;
 
-        userContainer.insertAdjacentHTML('beforeend', html);
+		userContainer.insertAdjacentHTML('beforeend', html);
 
-    });
+	});
 };
 
 fetchData();
