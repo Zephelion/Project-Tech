@@ -5,7 +5,7 @@
     </a>
     <h1>Create an account</h1>
 
-    <form action="/create" method="get">
+    <form id="register" action="/create" method="get">
         <label class="mobile-register" for="firstname">First name:</label><br>
         <input type="text"  name="firstname" placeholder="First name" required><br>
 
@@ -19,13 +19,13 @@
         <input type="email" name="email" placeholder="Email" required><br>
 
         <label class="mobile-register" for="password">Password:</label><br>
-        <input type="password" name="password" placeholder="Password" required><br>
+        <input type="password" id="password" name="password" placeholder="Password" required><br>
 
         <label class="mobile-register" for="confirmpassword">Confirm password:</label><br>
-        <input type="password" name="confirmpassword" placeholder="Confirm password" required><br>
+        <input type="password" name="confirmpassword" placeholder="Confirm password"><br>
 
 
         <input type="submit" value="Continue">
     </form> 
-
+    <script src="/public/js/passwordcheck.js"></script>
 </main>

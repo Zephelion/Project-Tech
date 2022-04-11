@@ -67,6 +67,10 @@ input[type=password]{
     font-size: 17px;
     margin-top: 13px;
     outline: none;
+
+    &.error{
+        border: 1px solid red;
+    }
     
 }
 
@@ -93,6 +97,10 @@ input[type=submit]{
     margin-top: 13px;
     outline: none;
 }
+
+// .error{
+//     border: 1px solid red;
+// }
 
 form{
     input[type=submit]{
